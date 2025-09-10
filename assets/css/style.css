@@ -14,7 +14,7 @@ body {
 
 .hero-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(../img/fundo.gif);
-     
+    background-size: cover;
     background-position: center;
     color: #fff; /* Garante que o texto dentro desta seção seja branco */
     color: #ffffff; /* Texto branco */   
@@ -114,5 +114,6 @@ body {
     /* Um pequeno efeito de "salto" para dar feedback */
     transform: translateY(-2px);
 }
+
 
  
