@@ -1,8 +1,8 @@
-# Projeto 03 (Trilha Simplificada) - Componente de Post com Flexbox
+# Projeto 05 (Trilha Simplificada) - Seção Hero de Landing Page
 
  
 
-Este projeto introduz o conceito mais fundamental de layout em CSS moderno: o Flexbox.
+Este projeto foca na criação da seção de boas-vindas de uma página, a "Hero Section", com ênfase em tipografia, espaçamento e "call-to-action".
 
  
 
@@ -10,7 +10,7 @@ Este projeto introduz o conceito mais fundamental de layout em CSS moderno: o Fl
 
  
 
-O projeto consiste em um único componente que simula a chamada para um post de blog, com uma imagem posicionada ao lado de um bloco de texto. O objetivo principal é aprender a usar a propriedade `display: flex` para alinhar elementos horizontalmente e controlar seu alinhamento e espaçamento.
+O projeto consiste em uma única seção de página que ocupa a tela inteira, contendo um título principal, um parágrafo de suporte e um botão de chamada para ação. O objetivo é praticar a criação de hierarquia visual e guiar o olhar do usuário para a ação mais importante.
 
  
 
@@ -18,21 +18,21 @@ O projeto consiste em um único componente que simula a chamada para um post de 
 
  
 
-- **CSS3 Flexbox**:
+- **CSS3**:
 
-  - Introdução à propriedade `display: flex` para criar um "Flex Container".
+  - **Tipografia**: Uso de `font-size`, `font-weight` e `line-height` para criar uma hierarquia visual clara.
 
-  - Alinhamento vertical de itens com `align-items: center`.
+  - **Unidades de Viewport**: Utilização da unidade `vh` para fazer uma seção ocupar a altura total da tela.
 
-  - Criação de espaçamento entre itens com a propriedade `gap`.
+  - **Layout com Flexbox**: Uso de `display: flex` e `align-items: center` para centralização vertical de conteúdo.
+
+  - **Estilização de Botões**: Criação de botões com `padding` para um design responsivo ao conteúdo.
+
+  - **Pseudo-classe `:hover`** e **`transform`**: Para criar efeitos de interação avançados.
 
 - **HTML5**:
 
-  - Estruturação de um componente com um elemento pai (container) e elementos filhos (itens).
-
-- **Controle de Imagens**:
-
-  - Uso de `object-fit: cover` para garantir que a imagem preencha um espaço definido sem distorção.
+  - Uso da tag semântica `<section>` para agrupar conteúdo temático.
 
  
 
@@ -40,8 +40,6 @@ O projeto consiste em um único componente que simula a chamada para um post de 
 
  
 
-1. Baixe uma imagem e coloque-a na pasta `assets`.
+1. Clone este repositório.
 
-2. Atualize o caminho da imagem no atributo `src` da tag `<img>`.
-
-3. Abra o arquivo `index.html` em seu navegador.
+2. Abra o arquivo `index.html` em seu navegador.
